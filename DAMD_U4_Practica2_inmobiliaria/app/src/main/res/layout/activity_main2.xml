@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/inmob2"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/otra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="3"
+        android:hint="ID"
+        android:inputType="number"
+        android:id="@+id/Ident"/>
+
+    <EditText
+        android:hint="Nombre"
+        android:id="@+id/Nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="17"
+        />
+
+    <EditText
+        android:hint="Domicilio"
+        android:id="@+id/Domicilio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="17"
+        />
+
+    <EditText
+        android:id="@+id/Telefono"
+        android:hint="Telefóno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="17"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/Consultar"
+            android:text="Consultar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="11"
+           />
+
+        <Button
+            android:id="@+id/Insertar"
+            android:text="Insertar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="11"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:id="@+id/Eliminar"
+            android:text="Elimniar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="11"/>
+
+        <Button
+            android:id="@+id/Actualizar"
+            android:text="Actualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="11"/>
+
+    </LinearLayout>
+
+</LinearLayout>
